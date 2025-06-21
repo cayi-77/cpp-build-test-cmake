@@ -1,4 +1,4 @@
-FROM ghcr.io/cayi-77/cpp-build:main
+FROM ghcr.io/cayi-77/cpp-build:stable
 COPY . .
 RUN cmake -B build
 RUN cmake --build build
